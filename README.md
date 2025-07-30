@@ -3,6 +3,17 @@
 ## Overview
 This challenge tests your ability to work with PHP data structures and render HTML based on a provided design. You'll be creating a product listing page that displays products with their details in a responsive layout using component-driven design and implementation.
 
+## Running Local Development
+To run this project locally, ensure you have a PHP server set up. You can use tools like XAMPP, MAMP, or the built-in PHP server.
+An example using the built-in PHP server:
+```bash
+# Navigate to the project directory
+cd path/to/php-coding-challenge
+# Start the PHP built-in server
+php -S localhost:8000
+```
+
+
 ## Challenge Requirements
 
 ### Task
