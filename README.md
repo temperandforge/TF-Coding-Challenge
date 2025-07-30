@@ -8,7 +8,7 @@ To run this project locally, ensure you have a PHP server set up. You can use to
 An example using the built-in PHP server:
 ```bash
 # Navigate to the project directory
-cd path/to/php-coding-challenge
+cd path/to/tf-coding-challenge
 # Start the PHP built-in server
 php -S localhost:8000
 ```
