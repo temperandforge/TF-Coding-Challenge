@@ -16,13 +16,13 @@ require_once 'includes/functions.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Listing Challenge</title>
+    <title>Product Details Challenge</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <h1>Product Listing</h1>
+            <h1>Product Details</h1>
         </div>
     </header>
 
