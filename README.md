@@ -9,6 +9,9 @@ Follow the instructions in this [Issue](https://github.com/temperandforge/TF-Cod
 ### Time Expectation
 This challenge should take approximately 4-6 hours to complete.
 
+### AI Usage
+Please do not use AI tools to generate code for this challenge. The goal is to assess your own coding skills and understanding of PHP, JS, HTML, and CSS. You will be asked to walk through your code and explain your approach during the review process.
+
 ### Running Local Development
 To run this project locally, ensure you have a PHP server set up. You can use tools like XAMPP, MAMP, or the built-in PHP server.
 An example using the built-in PHP server:
