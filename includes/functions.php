@@ -6,6 +6,11 @@
 
 /**
  * Format price with currency symbol
+ *
+ * @param float $price
+ * @param string $currency
+ *
+ * @return string
  */
 function formatPrice($price, $currency = 'USD') {
     $symbols = [
@@ -19,59 +24,28 @@ function formatPrice($price, $currency = 'USD') {
 }
 
 /**
- * Generate star rating HTML
- */
-function generateStarRating($rating, $maxStars = 5) {
-    $fullStars = floor($rating);
-    $halfStar = ($rating - $fullStars) >= 0.5;
-    $emptyStars = $maxStars - $fullStars - ($halfStar ? 1 : 0);
-    
-    $html = '';
-    
-    // Full stars
-    for ($i = 0; $i < $fullStars; $i++) {
-        $html .= '<span class="star star-full">★</span>';
-    }
-    
-    // Half star
-    if ($halfStar) {
-        $html .= '<span class="star star-half">☆</span>';
-    }
-    
-    // Empty stars
-    for ($i = 0; $i < $emptyStars; $i++) {
-        $html .= '<span class="star star-empty">☆</span>';
-    }
-    
-    return $html;
-}
-
-/**
- * Get discount percentage
- */
-function getDiscountPercentage($originalPrice, $currentPrice) {
-    if (!$originalPrice || $originalPrice <= $currentPrice) {
-        return 0;
-    }
-    
-    return round((($originalPrice - $currentPrice) / $originalPrice) * 100);
-}
-
-/**
  * Generate placeholder image URL if image doesn't exist
+ * 
+ * @param string $productName
+ * @param int $imageWidth
+ * @param int $imageHeight
+ *
+ * @return string
  */
-function getImageUrl($imagePath, $productName = '') {
+function getPlaceholderImageUrl($productName = '', $imageWidth = 300, $imageHeight = 300) {
     // In a real application, you'd check if the file exists
     // For this challenge, we'll use placeholder.com
-    $width = 300;
-    $height = 300;
     $text = urlencode($productName ?: 'Product');
-    
-    return "https://via.placeholder.com/{$width}x{$height}/f0f0f0/333333?text={$text}";
+
+    return "https://via.placeholder.com/{$imageWidth}x{$imageHeight}/f0f0f0/333333?text={$text}";
 }
 
 /**
  * Sanitize output for HTML
+ *
+ * @param string $string
+ *
+ * @return string
  */
 function escape($string) {
     return htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
