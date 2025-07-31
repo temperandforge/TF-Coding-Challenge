@@ -9,17 +9,6 @@ Follow the instructions in this [Issue](https://github.com/temperandforge/TF-Cod
 ### Time Expectation
 This challenge should take approximately 4-6 hours to complete.
 
-### Getting Started
-1. Fork this repository
-2. Clone your fork locally
-3. Study the Figma design carefully
-4. Implement your solution using components, utility classes, and DRY code.
-   - Style your components in `assets/css/styles.css`
-   - Create a component-based structure in `components/`
-   - Optionally, add JavaScript functionality in `assets/js/main.js`
-5. Test on multiple screen sizes
-6. Submit via pull request to your fork
-
 ### Running Local Development
 To run this project locally, ensure you have a PHP server set up. You can use tools like XAMPP, MAMP, or the built-in PHP server.
 An example using the built-in PHP server:
@@ -30,17 +19,18 @@ cd path/to/tf-coding-challenge
 php -S localhost:8000
 ```
 
-### Submission Instructions
-1. Complete your implementation
-2. Test thoroughly
-3. Commit your changes with clear commit messages
-4. Create a pull request to your fork with:
+## Submission Instructions
+1. Fork the repository to your GitHub account
+2. Complete your implementation
+3. Test thoroughly
+4. Commit your changes with clear commit messages
+5. Create a pull request to your fork with:
    - A summary of your approach
    - Testing instructions
    - Any challenges you faced
    - Any notes about your implementation decisions
 
-### Project Structure
+## Project Structure
 ```
 php-coding-challenge/
 ├── data/
