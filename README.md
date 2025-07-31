@@ -7,7 +7,7 @@ This challenge tests your ability to code DRY (Don't Repeat Yourself) in working
 Follow the instructions in this [Issue](https://github.com/temperandforge/TF-Coding-Challenge/issues/1).
 
 ### Time Expectation
-This challenge should take approximately 4-6 hours to complete.
+This challenge should take approximately 4-6 hours to complete, please get as far as you can in that amount of time and commit code regularly along the way.
 
 ### AI Usage
 Please do not use AI tools to generate code for this challenge. The goal is to assess your own coding skills and understanding of PHP, JS, HTML, and CSS. You will be asked to walk through your code and explain your approach during the review process.
