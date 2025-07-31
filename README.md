@@ -1,7 +1,7 @@
 # PHP Coding Challenge: Product Detail Page
 
 ## Overview
-This challenge tests your ability to code DRY (Don't Repeat Yourself) in working with PHP data structures and rendering HTML based on a provided design.
+This challenge tests your ability build a component driven design using PHP code to render HTML structures. The focus is on creating a clean, maintainable, and reusable codebase that adheres to the DRY (Don't Repeat Yourself) Code principle.
 
 ## Challenge Instructions
 Fork the repository to your GitHub account and then follow the instructions in this [Issue](https://github.com/temperandforge/TF-Coding-Challenge/issues/1).
