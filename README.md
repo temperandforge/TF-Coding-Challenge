@@ -1,7 +1,7 @@
 # PHP Coding Challenge: Product Detail Page
 
 ## Overview
-This challenge tests your ability to work with PHP data structures and render HTML based on a provided design.
+This challenge tests your ability to code DRY (Don't Repeat Yourself) in working with PHP data structures and rendering HTML based on a provided design.
 
 ## Running Local Development
 To run this project locally, ensure you have a PHP server set up. You can use tools like XAMPP, MAMP, or the built-in PHP server.
@@ -39,7 +39,7 @@ This challenge should take approximately 4-6 hours to complete.
 1. Fork this repository
 2. Clone your fork locally
 3. Study the Figma design carefully
-4. Implement your solution using components and utility classes
+4. Implement DRY principles in your solution using components and utility classes
    - Style your components in `assets/css/styles.css`
    - Create a component-based structure in `components/`
    - Optionally, add JavaScript functionality in `assets/js/main.js`
