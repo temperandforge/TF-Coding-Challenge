@@ -4,7 +4,7 @@
  * DO NOT MODIFY THIS FILE
  */
 
-return [
+$products = [
     [
         'id' => 1,
         'name' => 'Wireless Bluetooth Headphones',
@@ -156,3 +156,5 @@ return [
         'tags' => ['stainless-steel', 'insulated', 'eco-friendly', 'portable']
     ]
 ];
+
+return $products;

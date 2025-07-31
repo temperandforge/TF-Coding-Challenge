@@ -7,6 +7,9 @@
 // Load the product data
 require_once 'data/products.php';
 
+// Load the FAQ data
+require_once 'data/faqs.php';
+
 // Load helper functions
 require_once 'includes/functions.php';
 
