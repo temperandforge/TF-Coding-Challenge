@@ -4,7 +4,7 @@
 This challenge tests your ability to code DRY (Don't Repeat Yourself) in working with PHP data structures and rendering HTML based on a provided design.
 
 ## Challenge Instructions
-Follow the instructions in this [Issue](https://github.com/temperandforge/TF-Coding-Challenge/issues/1).
+Fork the repository to your GitHub account and then follow the instructions in this [Issue](https://github.com/temperandforge/TF-Coding-Challenge/issues/1).
 
 ### Time Expectation
 This challenge should take approximately 4-6 hours to complete, please get as far as you can in that amount of time and commit code regularly along the way.
@@ -23,11 +23,10 @@ php -S localhost:8000
 ```
 
 ## Submission Instructions
-1. Fork the repository to your GitHub account
-2. Complete your implementation
-3. Test thoroughly
-4. Commit your changes with clear commit messages
-5. Create a pull request to your fork with:
+1. Complete your implementation
+2. Test thoroughly
+3. Commit your changes with clear commit messages
+4. Create a pull request to your fork with:
    - A summary of your approach
    - Testing instructions
    - Any challenges you faced
