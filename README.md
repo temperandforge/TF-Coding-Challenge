@@ -13,6 +13,9 @@ cd path/to/tf-coding-challenge
 php -S localhost:8000
 ```
 
+## Challenge Instructions
+Follow the instructions in this [Issue](https://github.com/temperandforge/TF-Coding-Challenge/issues/1).
+
 ## Project Structure
 ```
 php-coding-challenge/
